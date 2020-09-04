@@ -1,0 +1,241 @@
+ body{
+	margin: 0;
+	padding: 0;
+	background: white;
+}
+.layout-main{
+	margin: 0 auto;  /* 가운데 정렬 */
+ /* border사용해서 위치나 크기 확인하기 */
+	width: 80%;
+	height: auto;
+	display: flex; /* 수평정렬 */
+	flex-direction: column;
+}
+/* .layout-left-block{
+	border: 2px solid red;
+	width: 20%;
+	height: 100%;
+}
+.layout-right-block{
+	border: 2px solid green;
+	width: 80%;
+	height: 100%;
+} */
+/*----------------------------------------------------------------------------------------------*/
+
+
+
+/* 검색창 */
+.medicine-search {
+	width: 100%;
+	height: 20px;
+	display: flex;
+	flex-direction: column;
+}
+
+.search {
+	display: flex;
+	height: 30%;
+}
+.white_window {
+	height: 60px;
+	display: flex;
+	justify-content: center;
+}
+.white_window #searchWord {
+	display: flex;
+	width: 40%;
+	border: none;
+	border-bottom: 3px solid rgb(234,153,153);
+}
+.white_window #searchBtn{
+	border: none;
+	background-color: white;
+}
+
+
+
+/*검색창 목록*/
+#searchWord{
+	font-size: 20px;
+	padding-left: 10px;
+}
+.medicine-info-filter {
+	display: flex;
+	justify-content: center;
+}
+.medicine-info-option {
+	height: 100px;
+	position: relative;
+	width: 100%;
+	border-bottom: solid 4px #d8e2f3;
+}
+.mselect {
+	position: absolute;
+	right: 0px;
+	bottom: 5px;
+	border: 2.3px solid rgb(234,153,153);
+	height: 30px;
+	width: 150px;
+}
+
+
+
+/*전체*/
+#container:after {
+    display: block;
+    clear: both;
+    content: '';
+}
+#content {
+    float: left;
+    width: 100%;
+}
+
+ 
+ 
+/* 타이틀 */
+.headword img {
+    margin: 0px 20px 0px  0px;
+    width: 30px;
+    height: 30px;
+}
+.headword {
+    position: relative;
+    width: 1200px;
+    margin: 9px auto 0;
+    font-size: 25px;
+    line-height: 46px;  
+}
+ 
+ 
+ 
+/* 게시글 목록 */
+#wrap:after {
+    display: block;
+    clear: both;
+    content: '';
+}
+.section_wrap h3.stress {
+    padding-top: 20px;
+    padding-bottom: 40px;
+    margin: 9px auto 0;  
+    margin-bottom: 20px;
+    border-bottom: solid 4px #d8e2f3;
+    height: 30px;
+    position: relative;
+}
+#wrap a{
+	color: black;
+}
+#wrap a:hover{
+	color:red;
+}
+.no-register{
+	font-size: 25px;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    padding: 10px 0;
+    background: #d8e2f3;
+    border-radius: 30px
+}
+
+
+/*페이징 처리*/
+
+.pageBlock{
+   display: flex;
+    justify-content: center;
+}
+.pageBlock span{
+    font-family: 'NanumSquare', sans-serif; 
+    background-color: rgb(234,153,153);
+    padding: 3px 5px;
+     border-radius: 10px;
+     color:white;
+     font-weight: 700;
+}
+.pageBlock a {
+    margin-left: 10px;
+    color: black;
+    font-size: 18px;
+    font-family: 'NanumSquare', sans-serif;
+    padding: 3px 5px;
+    border-radius: 10px;
+}
+.pageBlock a:hover {
+   background-color: rgb(234,153,153);
+   
+}
+.modal-dialog {
+    position: absolute;
+    top: 30%;
+}
+.modal-comment{
+	line-height: 170%;
+}
+.modal-content{
+	border-radius: 10px;
+    overflow: hidden;
+}
+.modal-header{
+	background: #d8e2f3;
+	padding: 18px 15px 15px;
+}
+.modal-price p{
+	margin: 0 0 10px 7px;
+}
+.modal-footer button{
+	background:  #d8e2f3;
+}
+
+
+/** modal window styles **/
+#lean_overlay {
+    position: fixed;
+    z-index:100;
+    top: 0px;
+    left: 0px;
+    height:100%;
+    width:100%;
+    background: #000;
+    display: none;
+}
+#inf_modal {
+  width: 200px;
+  height:200px;  /*팝업창의 크기조절*/
+  margin-top:200px;          /*팝업창 위아래 간격조절*/
+  padding: 18px;
+  top: 2%;
+  left: 27%;
+  margin-left: 0px;
+  background: #f3f6fa;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+	border: 3px solid rgb(234, 153, 153);
+}
+.tg {
+	border-collapse: collapse;
+	border-spacing: 0;
+	width: 200px;
+	height: 200px;
+	border-radius: 6px;
+	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+}
+.tg td {
+	border: 1px solid black;
+	border-radius: 6px;
+	font-size: 22px;
+	overflow: hidden;
+	padding: 10px 5px;
+	word-break: normal;
+}
+.tg .tg-0lax {
+	text-align: left;
+	vertical-align: top;
+}

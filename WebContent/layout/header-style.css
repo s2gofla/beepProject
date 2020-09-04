@@ -1,0 +1,137 @@
+@charset "UTF-8";
+@import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
+
+@media screen and (max-width: 767px ){
+	.nav-menu li a{
+		display: none;
+	}
+	.title img{
+		display: none;
+	}
+}
+body{
+	padding: 130px 0 0 0 ;
+	margin: 0;
+	background: white;
+}
+.center-sort{
+	margin: 0 auto;
+}
+ header{
+	width: 90%;
+}
+a{
+	text-decoration: none;
+}
+#tt-header{
+	width: 100%;
+	background: white;
+	position: fixed; 
+	top: 0;
+	z-index: 9999;
+}
+#top-header{
+	margin-top: 10px;
+	display: flex;
+	justify-content: flex-end;
+}
+.thd-a{
+	color: gray;
+	margin: 0 10px;
+	font-family: 'NanumSquare', sans-serif;
+	font-weight: 400;
+	font-size: 13px;
+}
+
+.thd-a:hover{
+	color: lightgray;
+}
+.tt-header{
+	position: fixed;
+}
+#header{
+	display: flex;
+	justify-content: flex-start;
+}
+.title{
+	font-family: 'Jua', sans-serif;
+	font-size: 25px;
+	font-weight: 400;
+	color: black;
+	display: flex;
+	align-items: baseline;
+	padding-bottom: 5px;
+}
+.title img{
+	margin: 10px 30px 0 5px;
+	width: 40px;
+	height: 40px;
+}
+.nav{
+	width: 70%;
+	display: flex;
+	justify-content: center;
+}
+.main-menu{
+	list-style: none;
+	width: 70%;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 0;
+	padding-top: 10px;
+	padding-left: 0;
+	margin: 0 auto;
+}
+.main-menu > li{
+	padding: 15px 10px 0 10px;
+	 margin: 0 17px;
+	/* margin: 0 20px; */
+}
+.main-menu > li > a{
+	color: black;
+	font-family: 'NanumSquare', sans-serif;
+	font-size: 18px;
+	font-weight: 500;
+	text-align: center;
+	display: block;
+	margin-bottom: 5px;
+}
+.main-menu > li:hover > a{
+	color: gray;
+}
+.main-menu> li:hover .sub-menu{
+	height: 45px;
+}
+.sub-menu{
+	/* display: none; */
+	/* opacity: 0; */
+  	position: absolute;
+	list-style: none;
+	padding: 0;
+	background: white;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+	min-width: 140px;
+	transition: height 1s;
+	height: 0;
+	overflow: hidden;
+	display: flex;
+}
+.sub-menu> li{
+	padding: 10px 10px;
+	 margin: 0 17px;
+}
+.sub-menu > li > a{
+	color: black;
+	font-family: 'NanumSquare', sans-serif;
+	font-size: 15px;
+}
+.sub-menu > li:hover{
+	background: rgba(224,224,224,50);
+	font-weight: 600;
+}
+.bar-hr{
+	border: 1px solid #d8e2f3;
+	background: #d8e2f3;
+	margin-bottom: 20px;
+}

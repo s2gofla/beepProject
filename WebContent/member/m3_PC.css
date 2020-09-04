@@ -1,0 +1,189 @@
+@charset "UTF-8";
+@import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
+
+*{
+	font-family: 'NanumSquare', sans-serif;
+}
+
+.m_GPC_box {
+	background: #e7e6e657;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.m_GPC_main {
+	/* border: solid 1px #e7e6e657; */
+	padding-bottom: 70px;
+	width: 80%;
+	display: flex;
+	flex-direction: column;
+	
+}
+
+
+.m_GPC_totalTop {
+	/* border: solid 1px #e7e6e657; */
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+
+
+
+/* //////////////////////////////////////////   */
+
+
+
+.m_GPC_top1 {
+	position: fixed;
+	/* background-color:#e7e6e657; */
+	width: 80%;
+}
+
+.m_GPC_top1_text {
+	text-align: center;
+	font-size: 30px;
+}
+
+.m_GPC_top2 {
+	margin-top: 90px;
+	display: flex;
+	justify-content: center;
+	background-color: white;
+	width: 100%;
+}
+
+.m_GPC_top2_numCircle2 {
+	width: 30px;
+	height: 30px;
+	border: solid 1px rgb(234, 153, 153);
+	background-color: rgb(234, 153, 153);
+	border-radius: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	justify-content: center;
+}
+
+.m_GPC_top2_numCircle {
+	width: 30px;
+	height: 30px;
+	border: solid 1px rgb(245, 207, 207);
+	background-color: rgb(245, 207, 207);
+	border-radius: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#m_GPC_num {
+	font-size: 15px;
+	text-align: center;
+	color: white;
+	bor
+}
+
+.m_GPC_numSub {
+	margin: 0 10px;
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	display: flex;
+	display: flex
+}
+
+.m_GPC_numBottonText {
+	text-align: center;
+	font-size: 13px;
+}
+
+/*  //////////////////////////////////////////////// */
+
+.m_GPC_totalMid{
+	width: 100%;
+	height: 100%;
+	
+	display: flex;
+	justify-content: center;
+}
+
+
+.m_GPC_borderMid{
+	border: solid 1px rgb(245, 207, 207);
+	padding: 5px;
+	margin-top: 30px;
+	background-color: white;
+ 	width: 40%;
+	height: auto;
+		
+}
+
+/* ////////////////////////////////////////// */
+
+.m_GPC_content{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin-top: 13px;
+}
+
+
+#m_GPC_phoneImg{
+	
+	width: 150px;
+	height: 100px;
+	
+	margin-top:16px;
+}
+
+
+
+.m_GPC_p1{
+	margin-bottom: 5px;
+}
+
+
+.m_GPC_text2{
+	display: flex;
+}
+
+
+.m_GPC_input{
+
+	font-family: sans-serif;
+}
+
+.m_GPC_button1{
+	background-color: rgb(234,153,153);
+	border: solid 1px rgb(234,153,153);
+	border-radius:3px;
+	height: 24px;
+	color:white;
+	margin-left: 3px;
+}
+
+/* ////////////////////////////////////// */
+.m_GPC_bottom{
+	display: flex;
+	flex-direction :column;
+	align-items: center;
+	
+}	
+
+
+.m_GPC_button2{
+	border: solid 1px #999999;
+	background-color:#999999;
+	border-radius:3px;
+	font-size:14px;
+	color: white;
+	margin-bottom: 13px;
+	margin-top:13px;
+	width: 70px;
+	height: 30px;
+	
+}

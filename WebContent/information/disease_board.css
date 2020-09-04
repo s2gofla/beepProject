@@ -1,0 +1,217 @@
+*{
+	font-family: 'NanumSquare', sans-serif;
+}
+body{
+	margin: 0;
+	padding: 0;
+	background: white;
+}
+.layout-main{
+	margin: 0 auto;  /* 가운데 정렬 */
+ /* border사용해서 위치나 크기 확인하기 */
+	width: 80%;
+	height: auto;
+	display: flex; /* 수평정렬 */
+	flex-direction: column;
+}
+/* .layout-left-block{
+	border: 2px solid red;
+	width: 20%;
+	height: 100%;
+}
+.layout-right-block{
+	border: 2px solid green;
+	width: 80%;
+	height: 100%;
+} */
+/*----------------------------------------------------------------------------------------------*/
+
+
+
+/* 타이틀 */
+.headword img {
+    margin: 0px 20px 0px  0px;
+    width: 30px;
+    height: 30px;
+}
+.headword {
+    position: relative;
+    width: 1200px;
+    margin: 9px auto 0;
+    font-size: 25px;
+    line-height: 46px;  
+}
+
+
+
+/* 검색창 */
+.medicine-search {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+.search {
+	display: flex;
+	height: 30%;
+}
+.white_window {
+	height: 60px;
+	display: flex;
+	justify-content: center;
+}
+.white_window #searchWord {
+	display: flex;
+	width: 40%;
+	border: none;
+	border-bottom: 3px solid rgb(234,153,153);
+}
+.white_window #searchBtn{
+	border: none;
+	background-color: white;
+}
+
+
+
+/*검색창 목록*/
+#searchWord{
+	font-size: 20px;
+	padding-left: 10px;
+}
+.medicine-info-filter {
+	display: flex;
+	justify-content: center;
+}
+.medicine-info-option {
+	height: 50px;
+	position: relative;
+	width: 100%;
+	margin: 15px 0;
+	/* border-bottom: solid 4px #d8e2f3; */
+}
+.mselect {
+	position: absolute;
+	right: 0px;
+	bottom: 5px;
+	border: 2.3px solid rgb(234,153,153);
+	height: 30px;
+	width: 150px;
+}
+
+
+
+/*전체*/
+#container:after {
+    display: block;
+    clear: both;
+    content: '';
+}
+#content {
+    float: left;
+    width: 100%;
+}
+
+ 
+ 
+/* 게시글 목록 */
+
+#size_ct:after {
+    display: block;
+    clear: both;
+    content: '';
+}
+#size_ct{
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.d_list{
+	border-bottom: solid 4px #d8e2f3;
+	display: flex;
+	width: 1000px;
+}
+.d_list a{
+	display: flex;
+    margin: 10px;
+}
+.d_head{
+	display: flex;
+	width: 350px;
+    align-items: center;
+}
+.d_title{
+	font-size: 15px;
+	padding: 5px 5px 5px 15px;
+	width: 150px;
+}
+.d_title span{
+	border-radius: 13px;
+    background: gray;
+    /* border: 2px solid gray; */
+    padding: 2px 7px;
+    color: white;
+}
+.d_name{
+	font-size: 22px;
+	padding: 5px 5px 5px 30px;
+	width: 200px;
+}
+.d_contents{
+	font-size: 20px;
+	padding: 0px 5px 5px 20px;
+	display: flex;
+	align-items: center;
+	line-height: 1.5;
+}
+
+
+
+.section_wrap a{
+	color: black;
+}
+.section_wrap a:hover{
+	color:red;
+}
+/*  .d_contents{
+ 	display: block;
+    padding-bottom: 30px;
+    border-bottom: solid 2px rgb(234,153,153);
+    height: 30px;
+	width: 100%;
+	border-bottom: solid 4px #d8e2f3;
+	position: relative;
+    margin: 9px auto 0;
+    margin-bottom: 16px;
+    white-space: nowrap; 
+	overflow: hidden; 
+} */
+
+
+
+/*페이징 처리*/
+
+
+.pageBlock{
+	display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.pageBlock span{
+	 font-family: 'NanumSquare', sans-serif; 
+	 background-color: rgb(234,153,153);
+	 padding: 3px 5px;
+     border-radius: 10px;
+     color:white;
+     font-weight: 700;
+}
+.pageBlock a {
+    margin-left: 10px;
+    color: black;
+    font-size: 18px;
+    font-family: 'NanumSquare', sans-serif;
+    padding: 3px 5px;
+    border-radius: 10px;
+}
+.pageBlock a:hover {
+	background-color: rgb(234,153,153);
+	
+}

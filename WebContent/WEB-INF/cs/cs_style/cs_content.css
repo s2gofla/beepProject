@@ -1,0 +1,133 @@
+@charset "UTF-8";
+@import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
+* {font-family: 'NanumSquare', sans-serif; }
+
+.layout-main{
+	margin: 0 auto;  /* 가운데 정렬 */
+	/* border: 2px solid purple; */ /* border사용해서 위치나 크기 확인하기 */
+	width: 80%;
+	height: auto;
+	display: flex; /* 수평정렬 */
+	/* margin-bottom: 500px; */
+}
+
+.layout-left-block{
+	/* border: 2px solid red; */
+	width: 20%;
+	height: 100%;
+}
+.layout-right-block{
+	/* border: 2px solid green;  */
+	width: 80%;
+	height: 100%;
+}
+
+  table{
+     border-spacing: 3px;
+     border-collapse: separate; 
+   }
+   table,  tr, td {
+      border:solid 1px gray;
+      border-radius: 3px;  
+      padding:3px;   
+   }
+   
+ #tblContent{
+   width:600px;
+ }
+.mem{
+	font-size: 20px;
+}
+.contentmem{
+	padding-left: 20px;
+}
+.contentcon{
+	padding-left: 15px;
+	padding-right: 50px;
+	height: 300px;
+}
+.conunder{
+	display: flex;
+	position: relative;
+}
+.combtns1 {
+    display: flex;
+    position: absolute;
+    right: 10px;
+    bottom: 5px;
+}
+.combtns1 img{
+    width: 30px;
+	height: 30px;	
+}
+.contenthashtag button span{
+	font-size: 15px;
+	font-weight: 400;
+	color: gray;
+	cursor: pointer;
+	margin: 10;
+	padding: 6px 15px;
+}
+.contenthashtag button{
+	border-radius: 99px;
+	background-color: rgb(245,207,207);
+	border: none;
+}
+.contentcommentw{
+	display: flex;
+	height: 80px;
+}
+textarea{
+	resize: none;
+	width: 80%;
+	border: none;
+	background-color: lightgoldenrodyellow;
+	border-radius: 10px;
+}
+.contentcommentw input{
+	width: 20%;
+	border: none;
+	background-color: rgb(245,207,207);
+	font-size: 30px;
+	color: gray;
+	border-radius: 10px;
+}
+.contentcommentl{
+	display: flex;
+}
+.contentcommentl img{
+	height: 30px;
+	width: 30px;
+}
+.combtns{
+	display: flex;
+}
+.combtns #combtn{
+	padding-left: 35px;
+	font-size: 15px;
+	font-weight: 400;
+	color: gray;
+	cursor: pointer;
+	margin: 10;
+	padding: 6px 15px;
+	height: 30px;
+	border-radius: 99px;
+	background-color: rgb(245,207,207);
+	border: none;
+}
+.concom{
+	padding-left: 35px;
+	padding-right: 50px;
+}
+.combtns img{
+	margin: 0 0 0 10px;
+	width: 30px;
+	height: 30px;
+}
+.likes{
+	font-size: 28px;
+	margin: 0 5px;
+}
+#img2, #img4, #img6{
+	display: none;
+}

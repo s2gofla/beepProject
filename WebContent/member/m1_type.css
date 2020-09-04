@@ -1,0 +1,87 @@
+@charset "UTF-8";
+@import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
+
+*{
+	font-family: 'NanumSquare', sans-serif;
+}
+
+.m_type_general_img {
+	width: 100px;
+	height: 100px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.m_type_doctor_img {
+	width: 100px;
+	height: 100px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.m_type_box {
+	background: #e7e6e657;
+	width: 100%;
+	height: 500px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.m_type_main {
+	background-position: center;
+	background-color: white;
+	padding: 3px;
+	width: 40%;
+	height: 82%;
+	display: flex;
+	flex-direction: column; /* 가로를 세로로 */
+	justify-content: center;
+}
+
+.m_type_chooseBox {
+	display: flex;
+	justify-content: center;
+	/* align-items: center; */
+}
+.m_type_explain{
+	height: 100px;
+}
+.m_type_choice {
+	/*border: solid 2px rgb(224,102,102);*/
+	width: 300px;
+	padding: 20px 10px;
+	display: flex;
+	flex-direction: column; /* 가로를 세로로 */
+	justify-content: space-between;
+	align-items: center;
+}
+
+
+.m_type_korean p{
+	margin:
+}
+
+.m_type_checkBtn{
+	border: solid 1px rgb(224,102,102);
+	background-color:rgb(224,102,102);
+	border-radius:3px;
+	color: white;
+	font-size:14px;
+	width: 110px;
+	height: 30px;
+}
+.m_type_checkBtn:hover{
+	background-color:rgba(224,102,102,0.8);
+	border: none;
+}
+p {
+	text-align: center;
+}
+
+#singupText {
+	font-weight: bold;
+	font-size: 20px;
+}

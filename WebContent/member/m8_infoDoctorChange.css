@@ -1,0 +1,132 @@
+@charset "UTF-8";
+@import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
+
+
+* {
+	font-family: 'NanumSquare', sans-serif;
+}
+
+.m_infoDC_box {
+	background: #e7e6e657;
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: center;
+}
+
+.m_infoDC_main {
+	/* border: solid 1px #e7e6e657; */
+	padding-bottom: 70px;
+	width: 80%;
+	display: flex;
+	flex-direction: column;
+}
+
+.m_infoDC_totalTop {
+	/* border: solid 1px #e7e6e657; */
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+/* //////////////////////////////////////////   */
+.m_infoDC_top1 {
+	position: fixed;
+	position:sticky;
+	top:115px;
+	padding:20px;
+	background-color:  rgb(234, 153, 153);
+	
+	
+	/* background-color:#e7e6e657; */
+	width: 1500px;
+}
+
+.m_infoDC_top1_text {
+	text-align: center;
+	font-size: 30px;
+}
+
+
+
+/* //////////////////////////////////////// */
+
+/* 버튼들 */
+.m_infoDC_buttons {
+	margin-top: 15px;
+	border: solid 1px rgb(234, 153, 153);
+	background-color: rgb(234, 153, 153);
+	border-radius: 3px;
+	color: white;
+}
+
+#m_infoDC_checkID {
+	margin-top: -15px;
+}
+
+/* //////////////////////////////////////////////// */
+.m_infoDC_totalInfo {
+	margin-top:90px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	padding-left: 20px;
+}
+
+.m_infoDC_basic {
+	margin-left: -20px;
+}
+
+#m_infoDC_title {
+	margin-top:-30px;
+	font-size: 23px;
+}
+
+.m_infoDC_label {
+	margin: 0px;
+	font-size: 20px;
+}
+
+.m_infoDC_label2 {
+	margin: 0px;
+}
+
+.m_infoDC_input {
+	font-size: 15px;
+	padding: 6px;
+	margin-top: 5px;
+	width: 40%;
+	border: solid 1px black;
+	border-radius: 5px;
+}
+
+.m_infoDC_select {
+	height: 33px;
+}
+
+#m_infoDC_pwText1 {
+	font-family: sans-serif;
+}
+
+#m_infoDC_pwText2 {
+	font-family: sans-serif;
+}
+/*  ////////////////////////////////////////////// */
+.m_infoDC_nextButton {
+	margin-top: 50px;
+	width: 100%;
+}
+
+#m_infoDC_button {
+	border: solid 1px rgb(224, 102, 102);
+	background-color: rgb(224, 102, 102);
+	width: 100%;
+	font-size: 20px;
+	color: white;
+}
+
+
+
+.m_infoDC_filebox{
+	margin-top:20px;
+}

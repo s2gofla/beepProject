@@ -1,0 +1,72 @@
+@charset "EUC-KR";
+
+:root {
+    --nav-length: 5;
+    --nav-width: calc(100% / var(--nav-length));
+}
+
+.menu_bar {
+    position: relative;
+    display: flex;
+    width: 640px;
+    margin: 4em auto;
+    font-family: 'Jua', sans-serif;
+}
+
+.menu_bar>a {
+    display: block;
+    width: 20%;
+    padding: .75em 0;
+    color: #333;
+    text-decoration: none;
+    text-align: center;
+}
+
+.nav-underline {
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 20%;
+    height: 2px;
+    background: #333;
+    transition: all .3s ease-in-out;
+}
+.menu_bar>a:nth-child(1).is-current~.nav-underline {
+    left: calc(var(--nav-width) * 0);
+}
+
+.menu_bar>a:nth-child(2).is-current~.nav-underline {
+    left: calc(var(--nav-width) * 1);
+}
+
+.menu_bar>a:nth-child(3).is-current~.nav-underline {
+    left: calc(var(--nav-width) * 2);
+}
+
+.menu_bar>a:nth-child(4).is-current~.nav-underline {
+    left: calc(var(--nav-width) * 3);
+}
+
+.menu_bar>a:nth-child(5).is-current~.nav-underline {
+    left: calc(var(--nav-width) * 4);
+}
+
+.menu_bar>a:nth-child(1):hover~.nav-underline {
+    left: calc(var(--nav-width) * 0);
+}
+
+.menu_bar>a:nth-child(2):hover~.nav-underline {
+    left: calc(var(--nav-width) * 1);
+}
+
+.menu_bar>a:nth-child(3):hover~.nav-underline {
+    left: calc(var(--nav-width) * 2);
+}
+
+.menu_bar>a:nth-child(4):hover~.nav-underline {
+    left: calc(var(--nav-width) * 3);
+}
+
+.menu_bar>a:nth-child(5):hover~.nav-underline {
+    left: calc(var(--nav-width) * 4);
+}

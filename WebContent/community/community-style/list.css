@@ -1,0 +1,186 @@
+@charset "UTF-8";
+@import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
+* {font-family: 'NanumSquare', sans-serif; }
+
+.llayout-main{
+	margin: 0 auto;  /* 가운데 정렬 */
+	/* border: 2px solid purple; */  /* border사용해서 위치나 크기 확인하기 */
+	width: 80%;
+	height: 800px;
+	display: flex; /* 수평정렬 */
+}
+.layout-left-block{
+	/* border: 2px solid red; */
+	width: 20%;
+	height: 100%;
+}
+.layout-right-block{
+	/* border: 2px solid green; */
+	width: 75%;
+	height: 100%;
+}
+body{
+	
+}
+.communitystyle{
+	font-size: 30px;
+	font: bold;
+	/* background-color: rgb(224,102,102); */
+}
+.communitystyle img{
+	width: 40px;
+	height: 40px;
+}
+.community li a:hover{
+	color: rgb(224,102,102);
+}
+.community li a{
+	color: black;
+	
+}
+.community{
+	padding: 0 40px 0 0;
+	margin-left: 0;
+}
+
+img{
+	width: 30px;
+	height: 30px;
+	margin-right: 7px;
+}
+li{
+	list-style: none;
+}
+ul{
+	/* padding: 7px; */
+}
+.disease-tip li{
+	margin: 5px 0px 5px 20px;
+	padding: 3px 0;
+}
+.disease-tip li:first-child{
+	padding-top: 10px;
+}
+.disease-tip{
+	height: 0;
+	overflow: hidden;
+	padding-left: 10px;
+}
+.board{
+	border: 1px;
+	width: 100%;
+}
+#smalltitle{
+	padding-left: 10px;
+	font-size: 25px;
+	font: bold;
+}
+#write{
+	display: flex;
+	justify-content: flex-end;
+	color: black;
+	padding-right: 10px;
+}
+#write img{
+	width: 15px;
+	height: 15px;
+}
+
+#TableTitle{
+	background-color:rgb(234,153,153);
+	height: 40px;
+}
+#TableTitle span{
+	font-size: 16px;
+}
+th{
+	height: 30px;
+}
+.pagination{
+   margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.pagination a {
+  color: black;
+  float: left;
+  padding: 4px 8px;
+  text-decoration: none;
+  transition: background-color .3s;
+}
+
+.pagination a.active {
+  background-color: rgb(224,102,102);
+  color: white;
+}
+
+.pagination a:hover:not(.active) {background-color: rgb(245,207,207);}/*  #ddd */
+
+ .searchWord{
+   background-color: rgb(245,207,207);
+   color:red;
+ }
+ .box{
+ 	display: flex;
+ 	justify-content: center;
+ }
+ select{
+ background-color: rgb(234,153,153);
+ height: 32px;
+ padding: 5px 10px;
+ border: none;
+ outline: none;
+ }
+ #searchWord{
+	border: none;
+	outline: none;
+	width: 20%;
+	height: 30px;
+	background-color: rgb(245,207,207);
+
+/* 	padding-left: 20px;
+	margin-right: 0;
+	display: flex;
+	border-radius: 30px;
+	font-size: 17px; */
+	font-family: 'NanumSquare', sans-serif;
+}
+
+ .search_submit1{
+	width: 30px;
+	height: 30px;
+	background-color: white;
+	background-image: url("../../beep_images/community-images/zoom.svg");
+	border: none;
+	outline: none;
+/* 	
+	background-image: url('../beep_images/search.png');
+	background-repeat: no-repeat;
+	background-size: 70%;
+	background-position: center;
+	
+	border-radius: 30px;
+	 */
+}
+option {
+	margin: 5px 0;
+}
+/* 
+th:hover{
+	color: rgb(224,102,102);
+}
+ */
+a.listtitle{
+	color: black;
+}
+/* 
+a.listtitle:hover{
+	color: rgb(224,102,102);
+}
+ */
+ tr:hover {
+	background-color: rgb(245,207,207)
+}
+a{
+	color: black;
+}

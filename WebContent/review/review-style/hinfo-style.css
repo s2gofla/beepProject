@@ -1,0 +1,285 @@
+@charset "UTF-8";
+
+body{
+	margin: 0;
+	padding: 0;
+	background: white;
+}
+.layout-main{
+	margin: 0 auto;  /* 가운데 정렬 */
+	/* border: 2px solid purple; */  /* border사용해서 위치나 크기 확인하기 */
+	width: 80%;
+	height: 600px;
+	display: flex; /* 수평정렬 */
+	
+	
+}
+.layout-left-block{
+	/* border: 2px solid red; */
+	width: 35%;
+	height: 100%;
+	box-shadow: 0px 2px 5px 0 rgba(0,0,0,0.2);
+	z-index: 99;
+	
+	display: flex;
+	flex-direction: column;
+}
+
+.layout-right-block{
+	/* border: 2px solid green; */
+
+	width: 65%;
+	height: 100%;
+	box-shadow: 0px 4px 5px 0 rgba(0,0,0,0.2);
+	position: relative;
+}
+
+.hospital-search{
+	
+	width: 100%; 
+	height:100px; 
+	background-color: rgb(234,153,153);
+	display: flex;
+	align-items : center;
+	justify-content: center;
+}
+
+.search {
+	
+	width: 400px;
+	margin-bottom: 0;
+	
+		}
+
+.white_window {
+	
+	display: flex;
+	height: 40px;
+	margin: 0;
+}
+
+.white_window #searchWord {
+	/* height: 100%; */
+	width: 100%;
+	border-color: white;
+	font-style: italic;
+	color: gray;
+	padding: 2px;
+	border: 0;
+	outline: 0;
+}
+
+.white_window #searchBtn {
+	
+	width: 50px;
+	border: 0;
+	outline: 0;
+	
+}
+
+.layout-left-block ul {
+	
+	width: 100%;
+	height: 500px;
+	margin: 0;
+	padding: 0;
+
+	flex-direction: column;
+	overflow-y:scroll; 
+	
+}
+
+.hinfo-box {
+	height: 30%;
+	padding: 20px;
+	position: relative;
+	
+	border-bottom: 1px #c0c5c9 double;
+}
+.hinfo-title {
+	
+
+}
+
+.hinfo-title a {
+	
+	font-size: 24px;
+	font-weight: bold;
+	overflow: hidden;
+	display: block;
+	max-width: 300px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.hinfo-title .bookmarkCnt{
+	position: absolute;
+	right: 20px;
+	top: 20px;
+	
+	font-size: 20px;
+}
+
+.hinfo-adress {
+	
+	font-size: 15px;
+	margin: 0px;
+}
+
+.hinfo-start {
+	
+	margin : 6px 0;
+	
+}
+
+.hinfo-star i {
+	
+	color: #ffc107;
+	letter-spacing: -3px;
+}
+
+.map-filter-form {
+	
+
+	background-color: #dadada234153153;
+	width: 100%;
+	height: 40%;
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	top:0;
+	z-index: 22;
+	
+}
+
+.filter-title {
+	height: 30%;
+	position: relative;
+	background-color:#e0e2e4;
+	border-bottom: solid 1px #babec2;
+}
+
+.fsearch-toggle {
+	display: inline;
+	position: absolute;
+	top:30%;
+	left: 25px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.filter-body {
+	width: 100%;
+	height : 70%;
+	background-color:#e0e2e4;
+	display: flex;
+	flex-direction: row;
+}
+
+.filter-body-Form {
+	display: flex;
+	width: 100%;
+
+	
+}
+
+.filter-item-group {
+	
+	padding: 5px;
+	width: 100%;
+	margin: 0 30px;
+	
+}
+
+.filter-item {
+	height: 100%;
+	
+}
+
+.fcheckbox-head {
+
+	font-size: 15px;
+	height: 30px;
+	
+	margin-top: 10px;
+	margin-bottom: 5px;
+	display: flex;
+	align-items: center;
+	background-color: #f6f6f6;
+	border: gray 1px solid;
+	
+}
+
+.fcheckbox-body {
+	font-size: 15px;
+	background-color: white;
+	border: 1px solid gray;
+	height: 80px;
+	overflow-y : scroll;
+}
+
+.fcheckbox-body ul {
+	margin: 0;
+	padding: 0;
+	background-color : #f6f6f6;
+	flex-direction : column;
+	height: 100%;
+}
+
+.fcheckbox-body li {
+	margin: 0;
+	padding: 0;
+	border-top: 0.5px solid gray;
+}
+
+.filter-strong {
+	
+	font-size: 18px; 
+	margin: 30px"
+}
+
+.fcheckbox-option {
+
+	height: 30px;
+	display: flex;
+	align-items: center;
+}
+
+.filter-btn-group {
+	
+	position: absolute;
+	top: 20px;
+	right:30px;
+	width: 220px;
+	height: 40px;
+	display: flex;
+	
+}
+
+.filter-btn {
+	border: none;
+	font-weight: bold;
+	border-radius: 6px;
+	width: 100px;
+	margin: 0 2px;
+	cursor: pointer;
+	outline: none;
+}
+
+.search-btn-group {
+	height: 30px;
+	display : flex;
+}
+
+.search-btn {
+	width: 35%;
+	border: none;
+	background-color: rgb(255, 237, 237);
+	cursor: pointer;
+	outline: none;
+}
+
+.fcheckbox-body li:first-child {
+   border: none;
+}
+

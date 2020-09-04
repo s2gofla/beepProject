@@ -1,0 +1,107 @@
+*{
+	font-family: 'NanumSquare', sans-serif;
+}
+body{
+	margin: 0;
+	padding: 0;
+	background: white;
+}
+.layout-main{
+	margin: 0 auto;  /* 가운데 정렬 */
+ /* border사용해서 위치나 크기 확인하기 */
+	width: 80%;
+	height: auto;
+	display: flex; /* 수평정렬 */
+	flex-direction: column;
+}
+/* .layout-left-block{
+	border: 2px solid red;
+	width: 20%;
+	height: 100%;
+}
+.layout-right-block{
+	border: 2px solid green;
+	width: 80%;
+	height: 100%;
+} */
+/*----------------------------------------------------------------------------------------------*/
+ 
+ 
+ 
+#all {
+    position: relative;
+    width: 1080px;
+    margin: 0 auto;
+    background-size: initial;
+    clear: both;
+}
+#all:after {
+    display: block;
+    clear: both;
+    content: '';
+}
+#content {
+    float: left;
+    width: 700px;
+    padding-left: 170px;
+}
+.section_wrap {
+   padding: 20px 0 40px 0;
+}
+ 
+
+  
+ 
+/*질환명 이름*/
+.headword_title {
+    position: relative;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.headword {
+    width: 550px;
+    margin: 9px auto 0;
+    font-size: 24px;
+    line-height: 46px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.headword img {
+    margin: 0px 20px 0px  0px;
+    width: 30px;
+    height: 30px;
+}
+ 
+/*질환 정보*/
+#inf {
+    font-size: 14px;
+    line-height: 25px;
+}
+#inf:after {
+    display: block;
+    clear: both;
+    content: '';
+}
+.inf_li{
+	list-style-type: decimal;
+}
+.d_title {
+    margin-bottom: 20px;
+    padding-top: 15px;
+}
+.d_content {
+    margin-bottom: 16px;
+    padding-bottom: 30px;
+    border-bottom: solid 2px rgb(234,153,153);
+}
+.back_btn{
+	position: absolute;
+    right: 210px;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    background: peachpuff;
+    /* outline: none; */
+    border: none;
+}

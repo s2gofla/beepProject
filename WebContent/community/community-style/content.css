@@ -1,0 +1,226 @@
+@charset "UTF-8";
+@import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
+* {font-family: 'NanumSquare', sans-serif; }
+
+.layout-main{
+	margin: 0 auto;  /* 가운데 정렬 */
+	/* border: 2px solid purple; */ /* border사용해서 위치나 크기 확인하기 */
+	width: 80%;
+	display: flex; /* 수평정렬 */
+	/* margin-bottom: 500px; */
+}
+
+.layout-left-block{
+	/* border: 2px solid red; */
+	width: 20%;
+	height: 100%;
+}
+.layout-right-block{
+	/* border: 2px solid green;  */
+	width: 80%;
+	height: 100%;
+}
+
+  table{
+     border-spacing: 3px;
+     border-collapse: separate; 
+   }
+   table,  tr, td {
+      border:solid 1px gray;
+      border-radius: 3px;  
+      padding:3px;   
+   }
+   
+ #tblContent{
+   width:600px;
+ }
+.mem{
+	font-size: 20px;
+}
+.contentmem{
+	padding-left: 20px;
+}
+.contentcon{
+	padding-left: 15px;
+	padding-right: 50px;
+	height: 300px;
+}
+.conunder{
+	display: flex;
+	position: relative;
+}
+.combtns1 {
+    display: flex;
+    position: absolute;
+    right: 10px;
+    bottom: 5px;
+}
+.combtns1 img{
+    width: 30px;
+	height: 30px;	
+}
+.contenthashtag button span{
+	font-size: 15px;
+	font-weight: 400;
+	color: gray;
+	cursor: pointer;
+	margin: 10;
+	padding: 6px 15px;
+}
+.contenthashtag button{
+	border-radius: 99px;
+	background-color: rgb(245,207,207);
+	border: none;
+}
+.contentcommentw{
+	display: flex;
+	height: 80px;
+}
+textarea{
+	resize: none;
+	width: 80%;
+	border: none;
+	background-color: lightgoldenrodyellow;
+	border-radius: 10px;
+}
+.contentcommentw input{
+	width: 20%;
+	border: none;
+	background-color: rgb(245,207,207);
+	font-size: 30px;
+	color: gray;
+	border-radius: 10px;
+	cursor: pointer;
+}
+.contentcommentw input[type="button"]{
+	width: 20%;
+	border: none;
+	background-color: rgb(245,207,207);
+	font-size: 30px;
+	color: gray;
+	border-radius: 10px;
+	cursor: pointer;
+}
+.contentcommentl{
+	display: flex;
+}
+.contentcommentl img{
+	height: 30px;
+	width: 30px;
+}
+.combtns{
+	display: flex;
+}
+.reply_btn{
+	padding-left: 35px;
+	font-size: 15px;
+	font-weight: 400;
+	color: gray;
+	cursor: pointer;
+	margin: 10;
+	padding: 6px 15px;
+	height: 30px;
+	border-radius: 99px;
+	background-color: rgb(245,207,207);
+	border: none;
+}
+.concom{
+	padding-left: 35px;
+	padding-right: 50px;
+}
+.combtns img{
+	margin: 0 0 0 10px;
+	width: 30px;
+	height: 30px;
+}
+.likes{
+	font-size: 28px;
+	margin: 0 5px;
+}
+#img2, #img4, #img6{
+	display: none;
+}
+input[type="button"]{
+	border: none;
+	background: none;
+	cursor: pointer;
+}
+
+
+
+/* 모달창 */
+/*공통*/
+#wrap{position:relative;clear:both; margin:10px; }
+#contents{position:relative;clear:both;}
+
+
+#wrap h1{color:#736357;line-height:40px;}
+#wrap .c_text{font-size:12px;line-height:40px;}
+#wrap .flatbtn{color:#8c6239;text-decoration:underline;}
+
+
+#loginmodal{border:3px solid #705c3b;background:#fff;}
+#loginmodal h2{color:#636363;font-size:24px;line-height:40px;}
+#loginmodal .p_c_text{font-size:12px;line-height:24px;}
+#loginmodal .login_line{margin:10px 0 0;height:80px;}
+#loginmodal .box_in{float:left;margin:0 10px 0; }
+#loginmodal input{width:120px;height:24px;display:block;margin:3px 0 0;}
+#loginmodal .btn_login{width:72px;height:60px;background:#363636;color:#e1e1e1;float:left;line-height:60px;text-align:center;}
+#loginmodal .find_join{clear:both;margin:20px 0 0 10px;}
+
+/** modal window styles **/
+#lean_overlay {
+    position: fixed;
+    z-index:100;
+    top: 0px;
+    left: 0px;
+    height:100%;
+    width:100%;
+    background: #000;
+    display: none;
+}
+
+
+#loginmodal {
+  width: 250px;height:250px;  /*팝업창의 크기조절*/
+  margin-top:100px;           /*팝업창 위아래 간격조절*/
+  padding: 18px;
+  background: #f3f6fa;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+.report_submit{
+   background-color: lightgoldenrodyellow;
+   color: black;
+}
+
+.reportbox{
+   margin-top: 15px;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-end;
+   display: none;
+}
+
+select.content_report_select{
+	margin-bottom: 10px;
+	width: 80%;
+}
+textarea.content_report{
+	width: 80%;
+}
+
+div#ccomentbox{
+	margin-left: 5%;
+}
+
+/* 
+#ccc{
+	margin-left: 5%;
+}
+ */ 

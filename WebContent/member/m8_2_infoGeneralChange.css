@@ -1,0 +1,138 @@
+@charset "UTF-8";
+@import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
+
+*{
+	font-family: 'NanumSquare', sans-serif;
+}
+
+.m_infoGC_box {
+	background: #e7e6e657;
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: center;
+}
+
+.m_infoGC_main {
+	/* border: solid 1px #e7e6e657; */
+	padding-bottom: 70px;
+	width: 80%;
+	display: flex;
+	flex-direction: column;
+}
+
+
+.m_infoGC_totalTop {
+	/* border: solid 1px #e7e6e657; */
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+
+/* //////////////////////////////////////////   */
+
+
+
+.m_infoGC_top1 {
+	position:sticky;
+	top:115px;
+	padding:20px;
+	background-color: rgb(234, 153, 153);
+	
+	
+	/* background-color:#e7e6e657; */
+	width: 1500px;
+}
+
+.m_infoGC_top1_text {
+	text-align: center;
+	font-size: 30px;
+}
+
+
+
+/* //////////////////////////////////////// */
+
+/* 버튼들 */
+.m_infoGC_buttons{
+	margin-top:15px;
+	border: solid 1px rgb(234, 153, 153);
+	background-color:rgb(234, 153, 153);
+	border-radius:3px;
+	color: white;
+}
+
+#m_infoGC_checkID{
+	margin-top:-15px;
+}
+
+/* //////////////////////////////////////////////// */
+
+
+
+.m_infoGC_totalInfo {
+	margin-top: 90px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	padding-left: 20px;
+	
+}
+
+.m_infoGC_basic{
+	margin-left: -20px;
+}
+
+
+#m_infoGC_title{
+	font-size: 23px;
+	margin-top: -30px;
+	
+}
+
+
+.m_infoGC_label {
+	margin: 0px; 
+	font-size: 20px;
+}
+.m_infoGC_label2{
+	margin:0px;
+	
+}
+
+.m_infoGC_input {
+	font-size:15px; 
+	padding:6px;
+	margin-top: 5px; 
+	width:40%;
+	border:solid 1px black;
+	border-radius: 5px;
+}
+
+.m_infoGC_select{
+	height: 33px;
+}
+
+#m_infoGC_pwText{
+	font-family: sans-serif;
+}
+/*  ////////////////////////////////////////////// */
+.m_infoGC_nextButton{
+	margin-top:40px;
+	width: 100%;
+}
+
+#m_infoGC_button{
+	border: solid 1px rgb(224,102,102);
+	background-color:rgb(224,102,102);
+	width: 100%;
+	font-size: 20px;
+	color:white;
+}
+
+.m_infoD_filebox{
+	margin-top:20px;
+}
+
+

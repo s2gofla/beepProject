@@ -1,0 +1,210 @@
+@charset "UTF-8";
+@import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
+*{
+	font-family: 'NanumSquare', sans-serif;
+}
+
+.m_infoG_box {
+	background: #e7e6e657;
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: center;
+}
+
+.m_infoG_main {
+	/* border: solid 1px #e7e6e657; */
+	padding-bottom: 70px;
+	width: 80%;
+	display: flex;
+	flex-direction: column;
+}
+
+.id-text{
+	font-size:12px; 
+	margin-left: 5px; 
+	display:none;
+}
+
+
+/* //////////////////////////////////////////   */
+
+
+
+.m_infoG_top1 {
+	position:sticky;
+	top:115px;
+	padding:20px;
+	background-color:  rgb(234, 153, 153);
+	
+	
+	/* background-color:#e7e6e657; */
+}
+
+.m_infoG_top1_text {
+	text-align: center;
+	font-size: 30px;
+}
+
+.m_infoG_top2 {
+	margin-top: 40px;
+	display: flex;
+	justify-content: center;
+	background-color: white;
+	width: 100%;
+}
+
+.m_infoG_top2_numCircle3 {
+	width: 30px;
+	height: 30px;
+	border: solid 1px rgb(234, 153, 153);
+	background-color: rgb(234, 153, 153);
+	border-radius: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	justify-content: center;
+}
+
+.m_infoG_top2_numCircle {
+	width: 30px;
+	height: 30px;
+	border: solid 1px rgb(245, 207, 207);
+	background-color: rgb(245, 207, 207);
+	border-radius: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#m_infoG_num {
+	font-size: 15px;
+	text-align: center;
+	color: white;
+	bor
+}
+
+.m_infoG_numSub {
+	margin: 0 10px;
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	display: flex;
+	display: flex
+}
+
+.m_infoG_numBottonText {
+	text-align: center;
+	font-size: 13px;
+}
+
+/* //////////////////////////////////////// */
+
+/* 버튼들 */
+.m_infoG_buttons{
+	margin-top:15px;
+	border: solid 1px rgb(234, 153, 153);
+	background-color:rgb(234, 153, 153);
+	border-radius:3px;
+	color: white;
+}
+
+#m_infoG_checkID{
+	margin-top:-15px;
+}
+
+/* //////////////////////////////////////////////// */
+
+
+
+.m_infoG_totalInfo {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	padding-left: 20px;
+	
+}
+
+.m_infoG_basic{
+	margin-left: -20px;
+}
+
+
+#m_infoG_title{
+	font-size: 23px;
+	
+}
+
+
+.m_infoG_label {
+	margin: 0px; 
+	font-size: 20px;
+}
+.m_infoG_label2{
+	margin:0px;
+	
+}
+
+.m_infoG_input {
+	font-size:15px; 
+	padding:6px;
+	margin-top: 5px; 
+	width:40%;
+	border:solid 1px black;
+	border-radius: 5px;
+}
+
+
+.m_infoG_select{
+	height: 33px;
+}
+
+#m_infoG_pwdText1{
+	font-family: sans-serif;
+}
+#m_infoG_pwdText2{
+	font-family: sans-serif;
+}
+
+
+#m_infoD_checkID{
+	margin-top: 5px;
+}
+/*  ////////////////////////////////////////////// */
+.m_infoG_nextButton{
+	margin-top:40px;
+	width: 100%;
+}
+
+#m_infoG_button{
+	border: solid 1px rgb(224,102,102);
+	background-color:rgb(224,102,102);
+	width: 100%;
+	font-size: 20px;
+	color:white;
+}
+
+.m_infoD_filebox{
+	margin-top:20px;
+}
+.m_infoD_input {
+	font-size: 15px;
+	padding: 6px;
+	margin-top: 5px;
+	width: 40%;
+	border: solid 1px black;
+	border-radius: 5px;
+}
+.m_infoD_label {
+	margin: 0px;
+	font-size: 20px;
+}
+
+.m_infoD_label2 {
+	margin: 0px;
+}
+
+#m_infoD_licenseNo{
+	font-family: sans-serif;
+}

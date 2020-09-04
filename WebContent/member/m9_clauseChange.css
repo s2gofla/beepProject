@@ -1,0 +1,108 @@
+@charset "UTF-8";
+@import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
+
+
+
+*{
+	font-family: 'NanumSquare', sans-serif;
+}
+
+.m_clause_box {
+	background: #e7e6e657;
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: center;
+}
+
+.m_clause_main {
+	/* border: solid 1px #e7e6e657; */
+	padding-bottom: 70px;
+	width: 80%;
+	display: flex;
+	flex-direction:column;
+	align-items: center;
+}
+/* //////////////////////////////////////////   */
+
+.m_clause_clauseTotal{
+	width:100%;
+}
+
+.m_clause_top1{
+	position:sticky;
+	top:115px;
+	padding:20px;
+	background-color: rgb(234, 153, 153);
+	
+	
+	/* background-color:#e7e6e657; */
+	width: 1500px;
+
+	
+}
+.m_clause_top1_text {
+	text-align: center;
+	font-size: 30px;
+}
+
+
+
+/* ////////////////////////////////////////////////////// */
+.m_clause_midBox1 {
+	display: flex;
+	align-items: center;
+	margin-left: -75%;
+}
+
+#m_clause_allAgree {
+	margin: 15px;
+}
+
+/* ///////////////////////////////////////////////////// */
+
+
+.m_clause_Total {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.m_clause_title{
+	display: flex;
+	align-items: center;
+}
+
+#m_clause_T{
+	margin-right: 2px;
+}
+
+.m_clause_content {
+	margin-bottom: 35px;
+	width: 96%;
+	height: 170px;
+	border: solid 1px rgb(245, 207, 207);
+	background-color: white;
+	overflow: scroll;
+	font-size: 12px;
+	width: 96%;
+}
+
+.m_clause_check{
+	display: flex;
+	align-items: center;
+	margin-left: 70px;
+}
+
+/* ///////////////////////////////////////////////////////////////////////// */
+.m_clause_nextButton{
+	width: 100%;
+}
+
+#m_clause_button{
+	border: solid 1px rgb(224,102,102);
+	background-color:rgb(224,102,102);
+	width: 100%;
+	font-size: 20px;
+	color:white;
+}

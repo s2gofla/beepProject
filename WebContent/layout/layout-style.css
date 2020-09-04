@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+body{
+	margin: 0;
+	padding: 0;
+	background: white;
+}
+.layout-main{
+	margin: 0 auto;  /* 가운데 정렬 */
+	border: 2px solid purple;  /* border사용해서 위치나 크기 확인하기 */
+	width: 80%;
+	height: 600px;
+	display: flex; /* 수평정렬 */
+}
+.layout-left-block{
+	border: 2px solid red;
+	width: 20%;
+	height: 100%;
+}
+.layout-right-block{
+	border: 2px solid green;
+	width: 80%;
+	height: 100%;
+}
+.layout-lefttop{
+	background: yellow;
+	height: 40%;
+	width: 100%;
+}
+/* css사용
+1. inline요소 block요소 구분
+> 블록요소: address, article, aside, audio, blockquote, canvas, dd, div, dl, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, hr, noscript, ol, output, p, pre, section, table, ul, video
+ -- 블록요소 내에는 블록요소와 인라인요소 모두 사용 가능
+ -- 박스형태로 줄바꿈이 일어남 한줄모두 차지함.
+> 인라인요소: a, abbr, acronym, b, bdo, big, br, button, cite, code, dfn, em, i, img, input, kbd, label, map, object, q, samp, small, script, select, span, strong, sub, sup, textarea, tt, var
+ -- 인라인요소 내에는 인라인요소만 사용가능
+ -- 줄바꿈이 없고 우측에 이어서 계속나옴
+ -- margin, padding 좌우만 가능 상하사용 x
+ -- display: block으로 블록형태로 사용가능.
+ -- line-height로 줄의 높낮이를 조절할 수 있고 text-align으로 텍스트의 종앙, 좌,우측 정렬을 할 수 있습니다.
+ -- vertical-align 사용가능
+인라인요소와 블록요소에서 사용가능한 속성이 조금씩 다름
+2. 배치
+1) display (사용추천)
+	> display: block
+	 - 인라인요소를 블록형태로 다루고 싶을 때 사용 (상하margin, padding 등,,)
+	> display:flex  ******
+	 - 자식요소들을 블록형태로 배치한다
+	 - 수평정렬, 수직정렬 가능
+	 - display: flex 수평정렬
+	 - flex-direction: column 수직으로 변경
+	 - justify-content: center : 주축(가로) 센터 정렬
+	 - align-content: center: 보조축(세로) 센터 정렬 부모 내의 자식요소가 둘이상일떄
+	 - align-items: center : 자식요소가 하나일때
+2) postion
+	> position: static
+	 - 초기값으로 위치를 지정할 떄
+	 - 앞서 사용한 position속성을 무시할 때 사용
+	
+	> position: absolute
+	 - 절대위치 body, static, 상위태그을 기준으로 offset 사용
+	 - top, bottom, left, right 사용
+	 
+	> position: relative
+	 - 요소의 원래위치를 기준으로 offset 사용
+	 - top, bottom, left, right
+3) float( 사용,,,권장ㄴ)
+  -- 배치가 붕 떠서 clearfix사용해야함,,,
+
+3. 꾸미기
+background: 배경색
+color: 글자색
+border: 테두리
+border-radius: 네모 둥글게
+font-size: 글자크기
+font-weight: 글자굵기
+font-family: 폰트설정
+min-width : 창 크기에 따라 작아질 수 있지만 min-width보다 더 작아지지는 말아라
+max-width : 창 크기에 따라 더 커질 수 있지만 max-width보다 더 커지지 말아라
+ */
+

@@ -1,0 +1,110 @@
+@charset "UTF-8";
+@import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
+
+*{
+	font-family: 'NanumSquare', sans-serif;
+}
+
+.m_GPC_box {
+	background: #e7e6e657;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.m_GPC_main {
+	/* border: solid 1px #e7e6e657; */
+	padding-bottom: 70px;
+	width: 80%;
+	display: flex;
+	flex-direction: column;
+	
+}
+
+
+
+
+
+/* //////////////////////////////////////////   */
+
+
+
+
+.m_GPC_totalMid{
+	width: 100%;
+	height: 100%;
+	
+	display: flex;
+	justify-content: center;
+}
+
+
+.m_GPC_borderMid{
+	border: solid 1px rgb(245, 207, 207);
+	padding: 5px;
+	margin-top: 30px;
+	background-color: white;
+ 	width: 40%;
+	height: auto;
+		
+}
+
+/* ////////////////////////////////////////// */
+
+.m_GPC_content{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin-top: 13px;
+}
+.m_GPC_h2{
+	display: flex;
+	justify-content: center;
+	
+}
+
+
+
+.m_GPC_p1{
+	
+	margin-bottom: 5px;
+}
+
+
+.m_GPC_text2{
+	margin-top:-30px;
+	display: flex;
+}
+
+
+.m_GPC_input{
+
+	font-family: sans-serif;
+		margin-top:30px;
+}
+
+
+
+/* ////////////////////////////////////// */
+.m_GPC_bottom{
+	display: flex;
+	flex-direction :column;
+	align-items: center;
+	margin-top: 20px;
+}	
+
+
+
+.m_GPC_button1{
+	border: solid 1px rgb(224,102,102);
+	background-color:rgb(224,102,102);
+	border-radius:3px;
+	font-size:14px;
+	color: white;
+	margin-bottom: 13px;
+
+	width: 70px;
+	height: 30px;
+	
+}

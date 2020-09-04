@@ -1,0 +1,203 @@
+@charset "UTF-8";
+@import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
+
+* {
+	font-family: 'NanumSquare', sans-serif;
+}
+
+.m_myPage_box {
+	
+	display: flex;
+	justify-content: center;
+}
+
+.m_myPage_main {
+	width: 900px;
+	border-radius: 15px;
+    overflow: hidden;
+	border: solid 3px #E06666;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+/* ////////////////////////////// */
+.m_myPage_top {
+	width: 100%;
+	height: 70px;
+	background-color: rgb(245, 207, 207);
+ 	margin-top: -30px;  
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#m_myPage_top_text {
+	font-size: 30px;
+	color: gray;
+}
+
+
+#m_myPage_info{
+	display: flex;
+	
+}
+
+.m_myPage_img1{
+	height:100%;
+	width:100px;
+	display: flex;
+	align-items: center;
+
+}
+
+.m_myPage_img2{
+	border: dotted 1px rgb(245,207,207);
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	margin-left:7px;
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#m_myPage_faceImg{
+	width: 80%;
+	height: 80%;
+}
+
+.m_myPage_info{
+	margin-left: 20px;
+	font-size: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.m_myPage_showInfoGrade{
+	display:flex;
+	align-items:center;
+	font-size:13px;
+}
+
+#m_myPage_gradeImg{
+	width:10px;
+	height: 10px;
+}
+
+#m_myPage_showInfo1{
+	margin-top: -5px;
+}
+
+#m_myPage_showInfo2{
+	margin-top: -15px;
+}
+
+.m_myPage_infoButtons{
+	display: flex;
+	align-items: center;
+	/* margin-left: 60px; */
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+#m_myPage_infoChangeButton{
+	width: 150px;
+	height: 30px;
+	background-color: rgb(224,102,102);
+	border: solid 1px rgb(224,102,102);
+	border-radius: 3px;
+	color: white;
+}
+
+.m_myPage_clauseChange{
+	margin-left: 30px;
+}
+
+#m_myPage_clauseChangeButton{
+
+	width: 150px;
+	height: 30px;
+	background-color: rgb(224,102,102);
+	border: solid 1px rgb(224,102,102);
+	border-radius: 3px;
+	color: white;
+}
+
+.m_myPage_withdrawal{
+	margin-left: 30px;
+}
+
+#m_myPage_withdrawalButton{
+
+	width: 150px;
+	height: 30px;
+	background-color: rgb(224,102,102);
+	border: solid 1px rgb(224,102,102);
+	border-radius: 3px;
+	color: white;
+}
+/* //////////////////////////////////// */
+
+.m_myPage_midBox {
+	margin-top: 20px;
+	width: 800px;
+	height: 100%;
+	display: flex;
+	align-item:center;
+	border-radius: 3px;
+}
+.mypageMid{
+	width: 400px;
+    height: 200px;
+    position: relative;
+    border: solid 2px rgb(234,153,153);
+    border-radius: 20px;
+    margin: 0 10px;
+    overflow: hidden;
+}
+
+.m_myPage_T{
+	margin: 0;
+    padding: 8px;
+    background: rgb(234,153,153);
+    padding: 10px 8px 12px;
+    text-align: center;
+    border-bottom: solid 2px #E06666
+}
+
+
+.m_myPage_hr{
+	/* 왜 안됨? 태그안에  넣어줌 */
+}
+
+.m_myPage_record{
+	margin-left: 3px;
+	width: 100%;
+	height: 120px;
+}
+
+.m_myPage_moreView{
+	margin-bottom: 6px;
+	margin-left: 430px;
+	
+	
+}	
+
+.m_myPage_moreButton{
+	background-color: #e7e6e657;
+	border: solid 1px lightgray;
+	border-radius: 3px;
+	margin-right: 10px;
+	position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+
+#p{
+	width: 100%;
+}
