@@ -142,14 +142,17 @@ $(".fcheckbox-title").on("click", function() {
 	console.log(bpurpose_code);
 	
 	$(this).toggleClass("activeB");
-	
+	console.log($(this).attr("id"));
 	if ($(this).attr("id")== "title1") {
 		
 		$("#title2").removeClass("activeB");
 		
 	}else {
+		console.log($(this).attr("id"));
 		$("#title1").removeClass("activeB");
 	}
+	
+	
 	
 	$.ajax({
 		

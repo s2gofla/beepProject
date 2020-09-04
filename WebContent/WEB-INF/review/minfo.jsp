@@ -178,11 +178,11 @@
 						<div class="filter-item">
 							<strong class="filter-strong">대분류</strong>
 							<div class="filter-item-box">
-								<div class="fcheckbox-title">
+								<div class="fcheckbox-title" id="title1">
 									<i class="fas fa-capsules"></i>
 									<div class="flabel">일반의약품</div>
 								</div>
-								<div class="fcheckbox-title">
+								<div class="fcheckbox-title" id="title2">
 									<i class="fas fa-prescription-bottle-alt"></i>
 									<div class="flabel">건강기능상품</div>
 								</div>
