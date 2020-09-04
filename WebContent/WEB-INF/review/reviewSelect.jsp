@@ -8,7 +8,7 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <!--*******  경로맞춰서 css style 부여 -->
-<link rel="stylesheet" href="../review/reviewSelect-style.css?var=1320192" type="text/css" charset="UTF-8" />
+<link rel="stylesheet" href="review-style/reviewSelect-style.css?var=1320192" type="text/css" charset="UTF-8" />
 <link href="https://fonts.googleapis.com/css2?family=Jua&family=Nanum+Gothic+Coding:wght@400;700&family=Titillium+Web:wght@400;600&display=swap" rel="stylesheet">
 <link href="../beep_images/wound.png" rel="shortcut icon" type="image/x-icon">
 <script src="https://kit.fontawesome.com/46a4c87d21.js" crossorigin="anonymous"></script>

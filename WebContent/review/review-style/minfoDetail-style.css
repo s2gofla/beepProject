@@ -252,7 +252,7 @@ body{
 	width: 50px;
 	border: 0;
 	outline: 0;
-	
+	cursor: pointer;
 }
 
 .row {
@@ -282,6 +282,7 @@ body{
 	 background: none;
 	 height: 30px;
 	 width: 200px;
+	 cursor: pointer;
 	 
 }
 
@@ -289,6 +290,50 @@ body{
 	
 	margin-top: 20px;
 	
+}
+
+
+.bookmark-box>i {
+	
+	cursor: pointer;
+	
+}
+
+.editDelete button{
+	
+	color: blue;
+	font-size: 14px;
+	border: none;
+	background: none;
+	cursor: pointer;
+	
+}
+
+
+#btnSubmit {
+	
+	position: absolute;
+	left: 50%;
+	height: 40PX;
+	width: 100px;
+	bottom: -66px;
+	transform : translate(-50%,-50%);
+	border: none;
+	background: #7ca4e882;
+	border-radius: 5px;
+}
+
+.reportbox {
+	
+	margin-top: 15px;
+	width: 300px;
+}
+
+.report_submit {
+	
+	border: none;
+	height: 30px;
+	background: #d8e2f3;
 }
 /* css사용
 1. inline요소 block요소 구분

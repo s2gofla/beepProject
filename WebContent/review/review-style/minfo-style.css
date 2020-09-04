@@ -164,6 +164,13 @@ body{
 	
 }
 
+.activeB {
+
+	background-color: darkgray;
+	color: white;
+	
+}
+
 
 .filter-item-box i {
 	font-size: 60px;
@@ -196,6 +203,7 @@ body{
 	flex-wrap: wrap;
 	overflow: auto;
 	list-style-type: none;
+	justify-content: center;
 }
 
 .medicine-info-list li {
@@ -261,6 +269,12 @@ position: relative;
 .minfo-title {
 	font-size: 23px;
 	margin-left: 10px;
+	overflow: hidden;
+	display: block;
+	max-width: 200px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	
 }
 
 .paging {
@@ -280,6 +294,15 @@ position: relative;
 	
 }
 
+
+.paging b {
+	
+	padding: 8px;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	
+}
 .paging a:hover {
 	
 	background-color: rgb(234,153,153);

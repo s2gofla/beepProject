@@ -7,7 +7,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<link rel="stylesheet" href="hrevWrite-style.css?var=1589962" type="text/css" charset="UTF-8" />
+<link rel="stylesheet" href="review-style/hrevWrite-style.css?var=1589962" type="text/css" charset="UTF-8" />
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
 		
 <!--*******  경로맞춰서 css style 부여 -->
@@ -396,7 +396,7 @@ $(document).ready( function() {
 	
 	
 	<footer></footer>
-	<script type="text/javascript" src="hrevWrite.js?var=3"></script>
+	<script type="text/javascript" src="review-style/hrevWrite.js?var=3"></script>
 	<!-- js파일연결 body태그 하단에 해줘야함 -->
 </body>
 </html>

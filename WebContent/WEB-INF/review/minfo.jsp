@@ -10,7 +10,7 @@
 <script
 	src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <!--*******  경로맞춰서 css style 부여 -->
-<link rel="stylesheet" href="minfo-style.css?var=183562" type="text/css"
+<link rel="stylesheet" href="review-style/minfo-style.css?var=183562" type="text/css"
 	charset="UTF-8" />
 <link
 	href="https://fonts.googleapis.com/css2?family=Jua&family=Nanum+Gothic+Coding:wght@400;700&family=Titillium+Web:wght@400;600&display=swap"
@@ -311,7 +311,7 @@
 	</div>
 	<footer></footer>
 	<input type="hidden" id="userid" value="${authUser.id}" />
-	<script type="text/javascript" src="../review/mreview.js?var=5"></script>
+	<script type="text/javascript" src="review-style/mreview.js?var=5"></script>
 	<!-- js파일연결 body태그 하단에 해줘야함 -->
 </body>
 </html>

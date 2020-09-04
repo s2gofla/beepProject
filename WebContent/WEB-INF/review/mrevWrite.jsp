@@ -10,7 +10,7 @@
 <script
 	src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <!--*******  경로맞춰서 css style 부여 -->
-<link rel="stylesheet" href="hrevWrite-style.css?var=144442"
+<link rel="stylesheet" href="review-style/hrevWrite-style.css?var=144442"
 	type="text/css" charset="UTF-8" />
 <link
 	href="https://fonts.googleapis.com/css2?family=Jua&family=Nanum+Gothic+Coding:wght@400;700&family=Titillium+Web:wght@400;600&display=swap"
